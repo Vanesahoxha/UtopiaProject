@@ -1,0 +1,146 @@
+.hero-container {
+    position: relative;
+    background-color: #222;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+   
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.hero-background-graphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+.hero-background-graphic img {
+    position: absolute;
+    opacity: 1;
+    filter: blur(0.3px);
+     animation: floatRotate 6s ease-in-out infinite;
+}
+
+.hero-background-graphic .img-1 {
+    top: 10%; /*in the right side*/
+    left: 70%;
+    width: 370px;
+
+}
+
+.hero-background-graphic .img-2 {
+    bottom: 5%;
+    right: 80%;
+    width:240px;
+
+}
+
+
+.hero-background-graphic .img-3 {
+    top: 6%;
+    right: 60%;
+    opacity: 0.6;
+    width: 280px;
+   
+}
+
+@media (max-width: 768px) {
+  .hero-background-graphic .img-1,
+  .hero-background-graphic .img-2,
+  .hero-background-graphic .img-3 {
+    width:160px
+  }
+}
+
+@keyframes floatRotate {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(3deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+
+
+.hero-btn {
+    position: relative;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 14px 32px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    
+
+}
+
+.hero-btn:hover {
+    background-color: rgba(255, 145, 0, 0.81);
+    color: white;
+
+
+}
+
+.hero-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+    transform: skewX(-25deg);
+    z-index: 2;
+}
+
+.hero-btn:hover::before {
+    animation: shimmer 1.2s;
+}
+
+@keyframes shimmer {
+    0% {
+        left: -75%;
+    }
+
+    100% {
+        left: 125%;
+    }
+}
