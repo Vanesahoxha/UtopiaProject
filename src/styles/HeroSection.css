@@ -1,7 +1,7 @@
 .hero-container {
     position: relative;
-    background-color: #222;
-    color: white;
+    background-color: #EFEEEA;
+    color: #0B192C;
     height: 500px;
     display: flex;
     align-items: center;
@@ -29,8 +29,9 @@
 
 .hero-subtitle {
     font-size: 20px;
+    font-weight: 400;
     margin-bottom: 30px;
-    color: #ddd;
+    color: #0B192C;
 }
 
 .hero-background-graphic {
@@ -69,7 +70,7 @@
 .hero-background-graphic .img-3 {
     top: 6%;
     right: 60%;
-    opacity: 0.6;
+    opacity: 1;
     width: 280px;
    
 }

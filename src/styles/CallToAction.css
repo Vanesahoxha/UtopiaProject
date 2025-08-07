@@ -1,0 +1,76 @@
+.cta-modern {
+  width: 100%;
+  background: linear-gradient(135deg, #E9E3DF 0%, #ffb347 100%);
+  padding: 6rem 1rem;
+  text-align: center;
+  color: #0b192c;
+  border-radius: 40px;
+}
+
+.cta-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cta-modern-title {
+  font-size: calc(2rem + 1vw);
+  font-weight: 800;
+  color: #0b192c;
+  margin-bottom: 1rem;
+}
+
+.cta-modern-subtitle {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  color: #273f4f;
+}
+
+.cta-modern-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cta-modern-btn {
+  padding: 0.9rem 2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cta-modern-btn.primary {
+  background-color: #273f4f;
+  color: #fff;
+}
+
+.cta-modern-btn.primary:hover {
+  background-color: #273f4f;
+}
+
+.cta-modern-btn.outline {
+  border: 2px solid #273f4f;
+  color: #273f4f;
+  background-color: transparent;
+}
+
+.cta-modern-btn.outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cta-modern-btn.ghost {
+background-color: #ff9100;
+  color: white;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 4px 10px rgba(255, 145, 0, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-modern-btn.ghost:hover {
+background-color: #e07b00;
+  box-shadow: 0 6px 15px rgba(224, 123, 0, 0.7);
+}

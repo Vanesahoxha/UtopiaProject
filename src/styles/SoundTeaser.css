@@ -1,0 +1,103 @@
+.sound-teaser-section {
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.sound-teaser-title {
+  color: #273f4f;
+  font-size: calc(1.325rem + 0.9vw);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.snippet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.snippet-card {
+  background: linear-gradient(135deg, #efeeea 0%, #d9d9d6 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 0.75rem); /* 2 cards per row pa 0.75 gap*/
+  max-width: calc(50% - 0.75rem);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.snippet-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 145, 0, 0.3);
+}
+
+.snippet-title {
+  color: #0b192c;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.snippet-title svg {
+  fill: rgb(255, 145, 0);
+  width: 24px;
+  height: 24px;
+}
+.simple-audio-player.rhap_container {
+  border-radius: 6px;
+  background-color: #efeeea;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.simple-audio-player .rhap_main-controls-button {
+  color: rgb(255, 145, 0);
+  font-size: 1.5rem;
+}
+
+.simple-audio-player .rhap_progress-filled {
+  background-color: rgb(255, 145, 0);
+}
+
+.simple-audio-player .rhap_progress-indicator {
+  border: 2px solid rgb(255, 145, 0);
+}
+
+
+
+.explore-button {
+  background-color: rgb(255, 145, 0);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 2rem auto 0;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.explore-button:hover {
+  background-color: rgba(255, 145, 0, 0.81);
+    color: white;
+
+}
+
+
+@media (max-width: 576px) {
+  .snippet-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

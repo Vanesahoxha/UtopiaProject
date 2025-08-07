@@ -6,6 +6,7 @@ import ProjectsPage from './pages/ProjectsPage.jsx';
 import SoundsPage from './pages/SoundsPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import RegisterPage from './pages/RegisterPage.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
