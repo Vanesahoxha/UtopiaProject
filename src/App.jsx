@@ -4,8 +4,8 @@ import Navbar from './components/Navbar.jsx';
 import HomePage from './pages/HomePage.jsx';
 import ProjectsPage from './pages/ProjectsPage.jsx';
 import SoundsPage from './pages/SoundsPage.jsx';
-import LoginPage from './pages/LoginPage.jsx';
-import RegisterPage from './pages/RegisterPage.jsx';
+import LogInPage from './pages/LogInPage.jsx';
+import ContactUsPage from './pages/ContactUsPage.jsx';
 import Footer from './components/Footer.jsx';
 
 
@@ -17,8 +17,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/sounds" element={<SoundsPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/contact" element={<ContactUsPage />} />
+        <Route path="/logIn" element={<LogInPage />} />
       </Routes>
       <Footer />
     </Router>

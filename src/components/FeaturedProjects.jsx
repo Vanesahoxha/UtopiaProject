@@ -8,27 +8,27 @@ const featuredProjects = [
   {
     id: 1,
     title: 'Brand Identity Redesign',
-    thumbnail: '/public/graphics/brand-identity.jpg',
+    thumbnail: '/graphics/brand-identity.jpg',
     link: '/projects/brand-identity-redesign',
   },
   {
     id: 2,
     title: 'Epic Soundscape',
-    thumbnail: '/public/graphics/sound.jpg',
+    thumbnail: '/graphics/sound.jpg',
     link: '/sounds/epic-soundscape',
   },
 
   {
     id: 3,
     title: 'Movie Sound Design',
-    thumbnail: '/public/graphics/movie-audio.jpg',
+    thumbnail: '/graphics/movie-audio.jpg',
     link: '/sounds/ambient-audio-pack',
   },
 
   {
     id: 4,
     title: 'UI/UX Design',
-    thumbnail: '/public/graphics/UI-UX.jpg',
+    thumbnail: '/graphics/UI-UX.jpg',
     link: '/projects/UI-UX-design',
   },
 

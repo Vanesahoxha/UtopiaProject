@@ -1,14 +1,14 @@
 import React from 'react';
 
-const LoginPage = () => (
+const LogInPage = () => (
   <div>
-    <h1>Login</h1>
+    <h1>Log In</h1>
     <input type="text" placeholder="Username" />
     <br />
     <input type="password" placeholder="Password" />
     <br />
-    <button>Login</button>
+    <button>Log In</button>
   </div>
 );
 
-export default LoginPage;
+export default LogInPage;
