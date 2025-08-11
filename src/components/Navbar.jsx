@@ -29,16 +29,16 @@ const Navbar = () => {
                     Sounds
                 </NavLink>
                 <NavLink
-                    to="/login"
+                    to="/contact"
                     className={({ isActive }) => (isActive ? 'active-link' : '')}
                 >
-                    Login
+                    Contact Us
                 </NavLink>
                 <NavLink
-                    to="/register"
+                    to="/logIn"
                     className={({ isActive }) => (isActive ? 'active-link' : '')}
                 >
-                    Register
+                    Log In
                 </NavLink>
             </div>
         </nav>
