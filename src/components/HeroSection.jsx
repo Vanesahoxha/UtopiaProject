@@ -2,8 +2,8 @@ import React, {useEffect, useRef} from 'react';
 import '../styles/HeroSection.css';
 
 const HeroSection = () => {
-     const audioRef = useRef(null);
-
+    /* const audioRef = useRef(null);*/
+/*
   useEffect(() => {
     // Preload audio once
     audioRef.current = new Audio('/sounds/hover.mp3');
@@ -15,7 +15,7 @@ const HeroSection = () => {
       audioRef.current.currentTime = 0; // rewind to start for repeated plays
       audioRef.current.play();
     }
-  };
+  };*/
     return (
         <section className="hero-container">
             <div className="hero-background-graphic">
@@ -28,7 +28,7 @@ const HeroSection = () => {
                 <p className="hero-subtitle">
                     Utopia Studio specializes in sound design and graphic design that brings your projects to life.
                 </p>
-                <a href="/projects" className="hero-btn" onMouseEnter={playHoverSound}>
+                <a href="/projects" className="hero-btn" /*onMouseEnter={playHoverSound}*/>
                 Explore Our Work
                 </a>
             </div>
