@@ -8,22 +8,22 @@ const soundSnippets = [
   {
     id: 1,
     title: 'Ambient Atmosphere',
-    file: '/sounds/ambient-preview.mp3',
+    file: '/sounds/sound1.mp3',
   },
   {
     id: 2,
     title: 'Cinematic Hit',
-    file: '/sounds/hit-preview.mp3',
+    file: '/sounds/sound2.mp3',
   },
   {
     id: 3,
     title: 'Sci-Fi',
-    file: '/sounds/sci-fi-preview.mp3',
+    file: '/sounds/sound3.mp3',
   },
   {
     id: 4,
     title: 'Gaming',
-    file: '/sounds/gaming-preview.mp3',
+    file: '/sounds/sound1.mp3',
   },
 ];
 
